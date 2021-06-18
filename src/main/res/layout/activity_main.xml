@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/settings"
+        android:id="@+id/help"
         android:layout_width="205dp"
         android:layout_height="61dp"
         android:layout_marginBottom="228dp"
-        android:text="Ustawienia"
+        android:text="Pomoc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -22,7 +22,7 @@
         android:layout_height="61dp"
         android:layout_marginTop="216dp"
         android:text="Zadania"
-        app:layout_constraintBottom_toTopOf="@+id/settings"
+        app:layout_constraintBottom_toTopOf="@+id/help"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
