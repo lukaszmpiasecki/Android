@@ -8,10 +8,10 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="336dp"
-        android:layout_height="112dp"
+        android:layout_width="254dp"
+        android:layout_height="277dp"
         android:text="Program powstał jako projekt zaliczeniowy na potrzeby przedmiotu Systemy urządzeń mobilnych. Wyższa Szkoła Bankowa w Poznaniu, rok akademicki 2020/2021 "
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/returnButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
